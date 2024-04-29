@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b838b12-db42-41d3-80de-782dd930b379" name="Changes" comment="">
+    <list default="true" id="1b838b12-db42-41d3-80de-782dd930b379" name="Changes" comment="Add same futures">
+      <change afterPath="$PROJECT_DIR$/module/all_leave.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/join.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phone.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/phone.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/reaksiya.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/reg.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,22 +34,43 @@
     &quot;accountId&quot;: &quot;49d9357e-1f8c-48a4-ab74-c6656aef1199&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2fj73lFRScinwnSDOsZZOeuhwIh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Downloads/like&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.reg.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/User/Documents/PycharmProjects/TelegramScript/module",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript\module" />
+      <recent name="C:\Users\User\Downloads\like" />
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript\src" />
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript" />
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript\module" />
+      <recent name="C:\Users\User\Documents\PycharmProjects\TelegramScript\module\source" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TelegramScript" />
@@ -83,7 +111,19 @@
       <option name="presentableId" value="Default" />
       <updated>1714302436230</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add same futures">
+      <option name="closed" value="true" />
+      <created>1714303141010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714303141010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add same futures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add same futures" />
   </component>
 </project>

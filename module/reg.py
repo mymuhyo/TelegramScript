@@ -3,30 +3,35 @@ import os
 
 api_id = 6539950
 api_hash = '111b6f6f44ba09b5858f9fee99a97322'
+csv_filename = 'src/phone.csv'
 
-while True:
-    print("Bekor qilish uchun 'x'.")
-    raqam = str(input("Number: "))
-    if raqam.lower() == "x":
-        break
 
-    if not raqam.startswith("+"):
-        number = "+" + raqam
+def login(phone_number):
+    client = TelegramClient(f"src/sessions/{phone_number}", api_id, api_hash)
+    client.start(phone_number)
 
-    with open('phone.csv', 'r') as f:
-        if any(raqam in line for line in f):
-            print("Allaqachon bu raqam mavjud.")
+
+def main():
+    if not os.path.isfile(csv_filename):
+        with open(csv_filename, 'w'):
+            pass
+
+    while True:
+        print("Enter 'x' to exit.")
+        phone_number = input("Number: ").strip()
+        if phone_number.lower() == "x":
+            break
+
+        if not phone_number.startswith("+"):
+            phone_number = "+" + phone_number
+
+        if login(phone_number):
+            with open(csv_filename, 'a') as f:
+                f.write(f"{phone_number}\n")
+            print("Login successful!")
         else:
-            print(f"Login {raqam}")
+            print("Login failed.")
 
-    client = TelegramClient(f"sessions/{raqam}", api_id, api_hash)
 
-    try:
-        # noinspection PyTypeChecker
-        client.start(raqam)
-        with open('../module/phone.csv', 'a') as f:
-            f.write(f"\n{raqam}" if os.path.getsize('../module/phone.csv') > 0 else raqam)
-        client.disconnect()
-        print("✅✅Tayyor!")
-    except Exception as e:
-        print(f"Xatolik yuz berdi: {e}")
+if __name__ == "__main__":
+    main()
