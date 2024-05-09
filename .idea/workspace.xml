@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b838b12-db42-41d3-80de-782dd930b379" name="Changes" comment="Add channel join futures and some optimizing">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/all_leave.py" afterDir="false" />
+    <list default="true" id="1b838b12-db42-41d3-80de-782dd930b379" name="Changes" comment="Add same futures">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sessions/+998995176543.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sessions/+99999.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sessions/998935650912.session" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sessions/+998994083511.session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/TelegramScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TelegramScript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/phone.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone.csv" afterDir="false" />
     </list>
@@ -22,13 +16,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,12 +26,12 @@
     &quot;assignee&quot;: &quot;mymuhyo&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mymuhyo/TelegramScript.git&quot;,
-    &quot;accountId&quot;: &quot;49d9357e-1f8c-48a4-ab74-c6656aef1199&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mymuhyo/TelegramScript.git",
+    "accountId": "973c6fd8-e756-4180-93e9-9b34f91d091b"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -63,12 +50,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.main.executor": "Run",
-    "Python.ramexfour.executor": "Run",
     "Python.reg.executor": "Run",
-    "Python.setup.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/Downloads/like/like",
+    "last_opened_file_path": "C:/Users/User/Documents/PycharmProjects/TelegramScript/module",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -112,7 +97,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -133,15 +118,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714303141010</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add channel join futures and some optimizing">
-      <option name="closed" value="true" />
-      <created>1714372471546</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1714372471546</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -161,7 +138,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add same futures" />
-    <MESSAGE value="Add channel join futures and some optimizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add channel join futures and some optimizing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add same futures" />
   </component>
 </project>
