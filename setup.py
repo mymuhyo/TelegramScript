@@ -1,5 +1,4 @@
 import os
-
 from config import SESSIONS_DIR, PHONE_CSV
 
 # Check if the directory exists, if not, create it
