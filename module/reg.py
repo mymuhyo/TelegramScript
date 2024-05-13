@@ -18,7 +18,7 @@ def main():
 
     while True:
         print("Enter 'x' to exit.")
-        phone_number = input("Number: ").strip()
+        phone_number = str(input("Number: ")).strip()
         if phone_number.lower() == "x":
             break
 
